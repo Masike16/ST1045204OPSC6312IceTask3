@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ST10452404 OPSC6312 ICE TASK 2 -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/background_dark">
+
+    <!-- Center Content: Title, Tagline, and Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_message"
+            android:textSize="18sp"
+            android:textColor="@color/text_secondary"
+            android:gravity="center"
+            android:layout_marginBottom="40dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnViewMap"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/view_map"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:cornerRadius="30dp"
+            android:backgroundTint="@color/purple_accent"
+            android:textColor="@color/button_text_color"
+            android:layout_marginBottom="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnServices"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/view_services"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:cornerRadius="30dp"
+            android:backgroundTint="@color/purple_accent"
+            android:textColor="@color/button_text_color"
+            android:layout_marginBottom="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAnnouncements"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/view_announcements"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:cornerRadius="30dp"
+            android:backgroundTint="@color/purple_accent"
+            android:textColor="@color/button_text_color"
+            android:layout_marginBottom="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnViewUsers"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/view_registered_users"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:cornerRadius="30dp"
+            android:backgroundTint="@color/purple_accent"
+            android:textColor="@color/button_text_color"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

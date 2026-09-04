@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ST10452404 OPSC6312 ICE TASK 2 -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="mapbox_access_token" translatable="false" tools:ignore="UnusedResources">pk.eyJ1IjoianVuaW9yLTE2IiwiYSI6ImNtdGszejFzZDBqZXIyd3MzNXpsanRmdDcifQ.f1mkxrHX0RaNJPEzwhZjEA</string>
+    <string name="app_name">Rosebank Campus App</string>
+    <string name="welcome_message">Welcome to your on-demand delivery and ride service. View items and place orders easily.</string>
+    <string name="view_services">View Services</string>
+    <string name="view_announcements">Track Deliveries</string>
+    <string name="view_map">Interactive Map</string>
+    <string name="manage_users">Manage Users (SQLite)</string>
+    <string name="menu_deliveries">Deliveries</string>
+    <string name="exit_app">Exit</string>
+    <string name="back_to_home">Back to Home</string>
+
+    <string name="our_services">Our Services</string>
+    <string name="ride_booking">Ride Booking</string>
+    <string name="ride_desc">Book affordable rides with live GPS tracking.</string>
+    <string name="delivery_service">Parcel Delivery</string>
+    <string name="delivery_desc">Fast delivery across the city.</string>
+    <string name="payment_service">Instant Payments</string>
+    <string name="payment_desc">Secure processing for all your transactions.</string>
+    <string name="grocery_delivery">Grocery Delivery</string>
+    <string name="grocery_desc">Get groceries delivered to your door.</string>
+    <string name="food_delivery">Food Delivery</string>
+    <string name="food_desc">Order meals from your favorite restaurants.</string>
+
+    <string name="web_service_data_label">Web Service Data (JSON):</string>
+    <string name="loading_title">Loading title…</string>
+    <string name="loading_content">Loading content…</string>
+
+    <!-- Login & Register -->
+    <string name="login_title">Login</string>
+    <string name="register_title">Register</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="no_account">Don\'t have an account? Register</string>
+    <string name="have_account">Already have an account? Login</string>
+    <string name="view_registered_users">View Registered Users</string>
+    <string name="registered_users_list">Registered Users List</string>
+</resources>
